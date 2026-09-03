@@ -2,7 +2,10 @@ import tkinter as tk
 
 # Setup main window
 root = tk.Tk()
-root.title("Interactive Form")
-root.geometry("350x150")
+root.title("PBzillia")
+root.geometry("550x550")
+root.maxsize(550, 550)
+root.resizable(False, False)
+
 
 root.mainloop()
